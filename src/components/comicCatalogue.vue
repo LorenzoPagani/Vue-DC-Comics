@@ -23,7 +23,7 @@ export default {
 </template>
 <style scoped>
 #catalogue {
-    background-color: black;
+    background-color: #1C1C1C;
 }
 
 .container {

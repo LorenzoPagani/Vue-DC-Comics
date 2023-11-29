@@ -7,7 +7,7 @@
 <style>
 #content {
     background-color: black;
-    height: 150px;
+    height: 15vh;
     color: white;
 }
 </style>

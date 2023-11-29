@@ -17,7 +17,7 @@
         </div>
     </div>
 </template>
-<style>
+<style scoped>
 .wrapper {
     height: 15vh;
     background-color: #303030;

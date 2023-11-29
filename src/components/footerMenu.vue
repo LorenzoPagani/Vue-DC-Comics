@@ -76,12 +76,12 @@ export default {
     height: 40vh;
     background-image: url(/img/footer-bg.jpg);
     padding: .8rem;
-    z-index: -1;
+    position: relative;
 }
 
 img {
     position: absolute;
-    top: 35%;
+    top: -26%;
     width: 25rem;
     z-index: 0;
 }

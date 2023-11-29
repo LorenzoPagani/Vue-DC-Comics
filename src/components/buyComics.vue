@@ -45,10 +45,12 @@ export default {
     </div>
 </template>
 
-<style>
+<style scoped>
 #buy-comics {
     height: 15vh;
     background-color: #0282F9;
+    position: relative;
+    z-index: 1;
 }
 
 .item {
@@ -59,5 +61,9 @@ export default {
 
 img {
     width: 2.5rem;
+}
+
+a {
+    text-decoration: none;
 }
 </style>

@@ -27,7 +27,7 @@ export default {
     </header>
 </template>
 
-<style>
+<style scoped>
 header {
     height: 15vh;
 }

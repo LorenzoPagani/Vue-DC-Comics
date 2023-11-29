@@ -4,7 +4,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
 #content {
     background-color: black;
     height: 15vh;

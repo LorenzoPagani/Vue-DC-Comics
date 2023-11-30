@@ -19,7 +19,7 @@ export default {
                 <div class="col-5">
                     <img src="/img/dc-logo.png" alt="">
                 </div>
-                <div class="col-7 d-flex justify-content-between align-items-center">
+                <div class="col-7 d-flex justify-content-between align-items-center h-100">
                     <a v-for="item in menuList" href="#">{{ item }}</a>
                 </div>
             </div>
@@ -41,6 +41,15 @@ a {
     color: #222;
     font-weight: bold;
     font-size: .8em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #0b5dd700;
+
+}
+
+a:hover {
+    border-bottom: 3px solid #0B5ED7;
 }
 
 img {
